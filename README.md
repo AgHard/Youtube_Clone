@@ -4,15 +4,15 @@ A YouTube-like video streaming platform built with React.js, designed to replica
 
 ▶️ Video Section
 
-Videos are fetched dynamically using the YouTube Data API
+• Videos are fetched dynamically using the YouTube Data API
 
-Each video card displays a thumbnail, title, channel name, and metadata
+• Each video card displays a thumbnail, title, channel name, and metadata
 
-Clicking a video opens a detailed view with the embedded YouTube player
+• Clicking a video opens a detailed view with the embedded YouTube player
 
-Smooth playback with full-screen capability
+• Smooth playback with full-screen capability
 
-Data is updated in real-time through API requests
+• Data is updated in real-time through API requests
 
 🎥 Demo Video:
 
@@ -20,23 +20,23 @@ Click here to watch the demo on YouTube
 
 🚀 Features
 
-Responsive design mimicking YouTube's layout
+• Responsive design mimicking YouTube's layout
 
-Video playback functionality
+• Video playback functionality
 
-Search capability for videos
+• Search capability for videos
 
-Navigation through different video categories
+• Navigation through different video categories
 
-Integration with YouTube Data API v3 for real-time data
+• Integration with YouTube Data API v3 for real-time data
 
 🛠️ Tech Stack
 
-Frontend: React.js, React Router, Axios
+• Frontend: React.js, React Router, Axios
 
-Styling: CSS Modules / Tailwind CSS (specify based on your implementation)
+• Styling: CSS Modules / Tailwind CSS (specify based on your implementation)
 
-API: YouTube Data API v3
+• API: YouTube Data API v3
 
 📦 Installation
 
@@ -60,48 +60,49 @@ API: YouTube Data API v3
 
 📁 Project Structure
 
-        ├── public/
-        
-        │   └── index.html
-        
-        ├── src/
-        
-        │   ├── components/
-        
-        │   │   ├── Header.js
-        
-        │   │   ├── Sidebar.js
-        
-        │   │   └── VideoCard.js
-        
-        │   ├── pages/
-        
-        │   │   ├── Home.js
-        
-        │   │   └── VideoDetail.js
-        
-        │   ├── App.js
-        
-        │   ├── index.js
-        
-        │   └── api/
-        
-        │       └── youtube.js
-
-├── .env
-
-├── package.json
-
-└── README.md
+    ├── public/
+    
+    │   └── index.html
+    
+    ├── src/
+    
+    │   ├── components/
+    
+    │   │   ├── Header.js
+    
+    │   │   ├── Sidebar.js
+    
+    │   │   └── VideoCard.js
+    
+    │   ├── pages/
+    
+    │   │   ├── Home.js
+    
+    │   │   └── VideoDetail.js
+    
+    │   ├── App.js
+    
+    │   ├── index.js
+    
+    │   └── api/
+    
+    │       └── youtube.js
+    
+    ├── .env
+    
+    ├── package.json
+    
+    └── README.md
 
 🔧 Available Scripts
-npm start: Runs the app in development mode.
 
-npm test: Launches the test runner.
+• npm start: Runs the app in development mode.
 
-npm run build: Builds the app for production.
+• npm test: Launches the test runner.
 
-npm run eject: Ejects the app configuration (use with caution).
+• npm run build: Builds the app for production.
+
+• npm run eject: Ejects the app configuration (use with caution).
 
 📸 Screenshots
 
