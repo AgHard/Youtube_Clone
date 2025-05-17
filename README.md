@@ -1,4 +1,22 @@
-A YouTube-like video streaming platform built with React.js, designed to replicate core functionalities such as video playback, search, and responsive UI.
+YouTube Clone
+
+A YouTube-like video streaming platform built with React.js, designed to replicate core functionalities such as video playback, search, and a responsive UI.
+
+▶️ Video Section
+
+Videos are fetched dynamically using the YouTube Data API
+
+Each video card displays a thumbnail, title, channel name, and metadata
+
+Clicking a video opens a detailed view with the embedded YouTube player
+
+Smooth playback with full-screen capability
+
+Data is updated in real-time through API requests
+
+🎥 Demo Video:
+
+Click here to watch the demo on YouTube
 
 🚀 Features
 
@@ -43,21 +61,37 @@ API: YouTube Data API v3
 📁 Project Structure
 
 ├── public/
+
 │   └── index.html
+
 ├── src/
+
 │   ├── components/
+
 │   │   ├── Header.js
+
 │   │   ├── Sidebar.js
+
 │   │   └── VideoCard.js
+
 │   ├── pages/
+
 │   │   ├── Home.js
+
 │   │   └── VideoDetail.js
+
 │   ├── App.js
+
 │   ├── index.js
+
 │   └── api/
+
 │       └── youtube.js
+
 ├── .env
+
 ├── package.json
+
 └── README.md
 
 🔧 Available Scripts
@@ -82,5 +116,6 @@ npm run eject: Ejects the app configuration (use with caution).
 Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
 
 📄 License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
