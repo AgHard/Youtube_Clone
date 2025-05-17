@@ -23,12 +23,19 @@ API: YouTube Data API v3
 📦 Installation
 
 1- Clone the repository:
+
     git clone https://github.com/AgHard/Youtube_Clone.git
+
     cd Youtube_Clone
+
 2- Install dependencies:
+
     npm install
+
 3- Configure environment variables:
+
     Create a .env file in the root directory and add your YouTube Data API key:
+
     REACT_APP_YOUTUBE_API_KEY=your_api_key_here
 4- Start the development server:
     npm start
@@ -71,6 +78,7 @@ npm run eject: Ejects the app configuration (use with caution).
 ![image](https://github.com/user-attachments/assets/cab011a5-658f-4cf2-a78b-ac10c4d84a06)
 
 🤝 Contributing
+
 Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
 
 📄 License
