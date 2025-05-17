@@ -16,7 +16,7 @@ A YouTube-like video streaming platform built with React.js, designed to replica
 
 🎥 Demo Video:
 
-Click here to watch the demo on YouTube
+Click here to watch the demo https://drive.google.com/file/d/1V5jk8F7_JBK6kro90k-tVdzwNbu45W9I/view?usp=sharing
 
 🚀 Features
 
