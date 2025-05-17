@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+A YouTube-like video streaming platform built with React.js, designed to replicate core functionalities such as video playback, search, and responsive UI.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Features
 
-## Available Scripts
+Responsive design mimicking YouTube's layout
 
-In the project directory, you can run:
+Video playback functionality
 
-### `npm start`
+Search capability for videos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Navigation through different video categories
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Integration with YouTube Data API v3 for real-time data
 
-### `npm test`
+🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Frontend: React.js, React Router, Axios
 
-### `npm run build`
+Styling: CSS Modules / Tailwind CSS (specify based on your implementation)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+API: YouTube Data API v3
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📦 Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1- Clone the repository:
+    git clone https://github.com/AgHard/Youtube_Clone.git
+    cd Youtube_Clone
+2- Install dependencies:
+    npm install
+3- Configure environment variables:
+    Create a .env file in the root directory and add your YouTube Data API key:
+    REACT_APP_YOUTUBE_API_KEY=your_api_key_here
+4- Start the development server:
+    npm start
 
-### `npm run eject`
+📁 Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── Header.js
+│   │   ├── Sidebar.js
+│   │   └── VideoCard.js
+│   ├── pages/
+│   │   ├── Home.js
+│   │   └── VideoDetail.js
+│   ├── App.js
+│   ├── index.js
+│   └── api/
+│       └── youtube.js
+├── .env
+├── package.json
+└── README.md
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🔧 Available Scripts
+npm start: Runs the app in development mode.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm test: Launches the test runner.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm run build: Builds the app for production.
 
-## Learn More
+npm run eject: Ejects the app configuration (use with caution).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📸 Screenshots
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Screenshot (1375)](https://github.com/user-attachments/assets/651b76ad-59a7-454f-8cc1-9c246fbff6c7)
 
-### Code Splitting
+![image](https://github.com/user-attachments/assets/46ffb780-3c20-4f2f-b222-9a41f1ef41eb)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![image](https://github.com/user-attachments/assets/cab011a5-658f-4cf2-a78b-ac10c4d84a06)
 
-### Analyzing the Bundle Size
+🤝 Contributing
+Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+📄 License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
