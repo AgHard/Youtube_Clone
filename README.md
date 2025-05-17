@@ -60,33 +60,33 @@ API: YouTube Data API v3
 
 📁 Project Structure
 
-├── public/
-
-│   └── index.html
-
-├── src/
-
-│   ├── components/
-
-│   │   ├── Header.js
-
-│   │   ├── Sidebar.js
-
-│   │   └── VideoCard.js
-
-│   ├── pages/
-
-│   │   ├── Home.js
-
-│   │   └── VideoDetail.js
-
-│   ├── App.js
-
-│   ├── index.js
-
-│   └── api/
-
-│       └── youtube.js
+        ├── public/
+        
+        │   └── index.html
+        
+        ├── src/
+        
+        │   ├── components/
+        
+        │   │   ├── Header.js
+        
+        │   │   ├── Sidebar.js
+        
+        │   │   └── VideoCard.js
+        
+        │   ├── pages/
+        
+        │   │   ├── Home.js
+        
+        │   │   └── VideoDetail.js
+        
+        │   ├── App.js
+        
+        │   ├── index.js
+        
+        │   └── api/
+        
+        │       └── youtube.js
 
 ├── .env
 
